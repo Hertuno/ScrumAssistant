@@ -1,6 +1,6 @@
+<img width="613" height="164" alt="image" src="https://github.com/user-attachments/assets/753855e6-019c-40ff-8860-1b0b8f5e5047" />
+
 # Scrum Assistant for 1C [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
 
 Расширение для интеграции 1С с Битрикс24 и управления Scrum-процессами.  
 **Актуальная версия:** 0.0.0.1  
