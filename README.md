@@ -1,4 +1,4 @@
-<img width="1000" height="164" alt="image" src="https://github.com/user-attachments/assets/753855e6-019c-40ff-8860-1b0b8f5e5047" />
+<img width="934" height="249" alt="image" src="https://github.com/user-attachments/assets/bb41e82a-7094-414c-a563-ae706c9acffa" />
 
 # Scrum Assistant for 1C [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
