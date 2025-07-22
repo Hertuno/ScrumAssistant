@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<AutoTitle>false</AutoTitle>
+	<HorizontalSpacing>Half</HorizontalSpacing>
+	<VerticalSpacing>Half</VerticalSpacing>
+	<Customizable>false</Customizable>
+	<ScalingMode>Compact</ScalingMode>
+	<ConversationsRepresentation>DontShow</ConversationsRepresentation>
+	<ShowCloseButton>false</ShowCloseButton>
+	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1" DisplayImportance="VeryHigh">
 		<HorizontalAlign>Center</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -25,8 +32,8 @@
 						<Type>CommandBarButton</Type>
 						<Representation>PictureAndText</Representation>
 						<CommandName>Form.Command.Обновить</CommandName>
-						<BackColor>web:HoneyDew</BackColor>
-						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+						<BackColor>web:WhiteSmoke</BackColor>
+						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 						<Picture>
 							<xr:Ref>StdPicture.Refresh</xr:Ref>
 							<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -45,8 +52,8 @@
 						<Type>CommandBarButton</Type>
 						<Representation>PictureAndText</Representation>
 						<CommandName>Form.Command.ВремяЗаСпринт</CommandName>
-						<BackColor>web:HoneyDew</BackColor>
-						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+						<BackColor>web:WhiteSmoke</BackColor>
+						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 						<Picture>
 							<xr:Ref>StdPicture.InputFieldCalendar</xr:Ref>
 							<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -66,8 +73,8 @@
 						<Type>CommandBarButton</Type>
 						<Representation>PictureAndText</Representation>
 						<CommandName>Form.Command.ПолучитьРезультаты</CommandName>
-						<BackColor>web:HoneyDew</BackColor>
-						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+						<BackColor>web:WhiteSmoke</BackColor>
+						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 						<Picture>
 							<xr:Ref>StdPicture.ExternalDataSource</xr:Ref>
 							<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -86,8 +93,8 @@
 						<Type>CommandBarButton</Type>
 						<Representation>PictureAndText</Representation>
 						<CommandName>Form.Command.Дайджест</CommandName>
-						<BackColor>web:HoneyDew</BackColor>
-						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+						<BackColor>web:WhiteSmoke</BackColor>
+						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 						<Picture>
 							<xr:Ref>StdPicture.Today</xr:Ref>
 							<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -102,12 +109,23 @@
 						<Shape>Usual</Shape>
 						<ExtendedTooltip name="ФормаДайджестРасширеннаяПодсказка" id="758"/>
 					</Button>
+					<Button name="ФормаНастройки" id="1135">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.Настройки</CommandName>
+						<BackColor>web:WhiteSmoke</BackColor>
+						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+						<Picture>
+							<xr:Ref>StdPicture.Setting</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ФормаНастройкиРасширеннаяПодсказка" id="1136"/>
+					</Button>
 				</ChildItems>
 			</ButtonGroup>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -115,7 +133,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выбор стадии</v8:content>
+					<v8:content>Стадии</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -130,7 +148,6 @@
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<GroupVerticalAlign>Center</GroupVerticalAlign>
 			<Group>AlwaysHorizontal</Group>
-			<ChildrenAlign>None</ChildrenAlign>
 			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
 			<HorizontalAlign>Center</HorizontalAlign>
@@ -138,8 +155,20 @@
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
+			<BackColor>web:Lavender</BackColor>
 			<ExtendedTooltip name="ВыборСтадииРасширеннаяПодсказка" id="930"/>
 			<ChildItems>
+				<LabelDecoration name="ГраницаСлева" id="1140">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ГраницаСлеваКонтекстноеМеню" id="1141"/>
+					<ExtendedTooltip name="ГраницаСлеваРасширеннаяПодсказка" id="1142"/>
+				</LabelDecoration>
 				<Button name="ВидимостьСтадииВОчереди" id="907">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
@@ -301,6 +330,17 @@
 					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 					<ExtendedTooltip name="ВидимостьСтадииНаПаузеРасширеннаяПодсказка" id="926"/>
 				</Button>
+				<LabelDecoration name="ГраницаСправа" id="1137">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ГраницаСправаКонтекстноеМеню" id="1138"/>
+					<ExtendedTooltip name="ГраницаСправаРасширеннаяПодсказка" id="1139"/>
+				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаСтадии" id="1">
@@ -317,7 +357,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>AlwaysHorizontal</Group>
-			<HorizontalSpacing>None</HorizontalSpacing>
+			<HorizontalSpacing>Half</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСтадииРасширеннаяПодсказка" id="2"/>
@@ -17543,6 +17583,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СнятьВсе</Action>
+		</Command>
+		<Command name="Настройки" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Настройки</Action>
 		</Command>
 	</Commands>
 </Form>

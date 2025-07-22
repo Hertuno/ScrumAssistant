@@ -53,8 +53,8 @@
 			<DefaultRoles>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.БИТС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
-			<Vendor/>
-			<Version/>
+			<Vendor>Ветров И.В.</Vendor>
+			<Version>0.0.0.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
