@@ -67,11 +67,20 @@
 			<Language>Русский</Language>
 			<Role>БИТС_ОсновнаяРоль</Role>
 			<CommonTemplate>БИТС_Макет</CommonTemplate>
-			<CommonModule>БИТС_Скрам</CommonModule>
-			<CommonModule>БИТС_Служебный</CommonModule>
+			<CommonModule>БИТС_СкрамСервер</CommonModule>
+			<CommonModule>БИТС_СлужебныйСервер</CommonModule>
+			<CommonModule>БИТС_ЗадачиСервер</CommonModule>
+			<CommonModule>БИТС_РезультатыСервер</CommonModule>
+			<CommonModule>БИТС_ФайлыСервер</CommonModule>
+			<CommonModule>БИТС_Формы</CommonModule>
 			<CommonForm>БИТС_Спринт</CommonForm>
-			<CommonForm>БИТС_Задача</CommonForm>
 			<InformationRegister>БИТС_Настройки</InformationRegister>
+			<InformationRegister>БИТС_Задачи</InformationRegister>
+			<InformationRegister>БИТС_Результаты</InformationRegister>
+			<InformationRegister>БИТС_Файлы</InformationRegister>
+			<InformationRegister>БИТС_Стадии</InformationRegister>
+			<InformationRegister>БИТС_Спринты</InformationRegister>
+			<InformationRegister>БИТС_Трудозатраты</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

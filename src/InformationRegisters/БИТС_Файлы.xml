@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<InformationRegister uuid="cb7abadc-e3f0-4c89-a455-8682cd186e37">
+	<InformationRegister uuid="bf75f937-01ee-4eb3-b2ba-9de033cd7e04">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.БИТС_Настройки" category="Record">
-				<xr:TypeId>f216943a-a2f3-4d23-aeb0-a1ec39b239af</xr:TypeId>
-				<xr:ValueId>7ef0384c-a023-4735-9188-5ab2c340c310</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.БИТС_Файлы" category="Record">
+				<xr:TypeId>357a6baa-8696-44b7-a3dd-87d49aebcc82</xr:TypeId>
+				<xr:ValueId>5597e1fc-0702-45fa-b001-ec8e6cc2b38b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.БИТС_Настройки" category="Manager">
-				<xr:TypeId>3df79899-7065-43f4-a68d-a2dfaf4715f6</xr:TypeId>
-				<xr:ValueId>93ec13a0-a82a-4871-b013-fcdec4a4cae5</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.БИТС_Файлы" category="Manager">
+				<xr:TypeId>60959f30-7a08-4b77-a579-8285be3b404a</xr:TypeId>
+				<xr:ValueId>c8714a5b-4840-4a99-a449-47ab7c8d4487</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.БИТС_Настройки" category="Selection">
-				<xr:TypeId>77bab685-59bf-4dd3-a69e-0c3504aaa926</xr:TypeId>
-				<xr:ValueId>80da349e-fb94-45e6-94b9-29f9fd19ae3b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.БИТС_Файлы" category="Selection">
+				<xr:TypeId>71818d0e-f8ec-40e9-86ef-a9ac771de69e</xr:TypeId>
+				<xr:ValueId>785c873d-2d80-49f9-a684-60f9a35c940f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.БИТС_Настройки" category="List">
-				<xr:TypeId>5036911b-b05e-4b94-ab8d-1ece9a9a0ced</xr:TypeId>
-				<xr:ValueId>5ed389a1-e3d4-4bb2-9760-91303c6aa513</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.БИТС_Файлы" category="List">
+				<xr:TypeId>5f559f48-10b0-4bbe-be72-bee59c0019a1</xr:TypeId>
+				<xr:ValueId>36265079-6b27-4a64-adc8-c2dbb680420e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.БИТС_Настройки" category="RecordSet">
-				<xr:TypeId>dff75d9d-d0e5-4aa6-9dbf-9bd368172885</xr:TypeId>
-				<xr:ValueId>4b354e08-7e89-458c-abbb-dbcfc73c3069</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БИТС_Файлы" category="RecordSet">
+				<xr:TypeId>4ffcdd8a-752c-4811-a604-81abf1a389de</xr:TypeId>
+				<xr:ValueId>16c3d301-01ca-46b2-93db-14bfb0cd7954</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.БИТС_Настройки" category="RecordKey">
-				<xr:TypeId>2bcdeee6-0a09-4869-b6ac-8ec3423efae1</xr:TypeId>
-				<xr:ValueId>a8eeebe7-7037-4cb2-bf4c-e90baf5b073b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БИТС_Файлы" category="RecordKey">
+				<xr:TypeId>2d0019d7-6b4a-4fd9-9655-de99d1a7ded5</xr:TypeId>
+				<xr:ValueId>f64abb62-5a9a-4175-aedf-eee47b12256e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.БИТС_Настройки" category="RecordManager">
-				<xr:TypeId>65997d80-9045-459a-b907-cf59a8165e03</xr:TypeId>
-				<xr:ValueId>7d921203-0322-4bc2-96d6-b98731811415</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БИТС_Файлы" category="RecordManager">
+				<xr:TypeId>b8f4dfbe-2b5e-4010-892e-be76d13253c6</xr:TypeId>
+				<xr:ValueId>bacdea1b-ef3b-45c0-be1d-55255575fd3a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>БИТС_Настройки</Name>
+			<Name>БИТС_Файлы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки битрикс</v8:content>
+					<v8:content>Файлы битрикс</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
-			<DefaultListForm>InformationRegister.БИТС_Настройки.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
@@ -64,63 +64,20 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="1b7614f4-d78e-4d27-9064-6613e90109eb">
+			<Dimension uuid="d7ac96fd-2b08-4165-a017-893952679970">
 				<Properties>
-					<Name>Значение</Name>
+					<Name>id</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Значение</v8:content>
+							<v8:content>Id</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Dimension uuid="1feb2397-1a21-4b3f-a34d-102d5a8240b9">
-				<Properties>
-					<Name>Наименование</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
+							<v8:Length>10</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -154,7 +111,100 @@
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
-			<Form>ФормаСписка</Form>
+			<Dimension uuid="d2641bff-92b8-4271-a007-35e231b54fdf">
+				<Properties>
+					<Name>taskId</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Task id</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ffc5a7d5-4c6a-487a-9d18-3bec49d278f1">
+				<Properties>
+					<Name>commentId</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Comment id</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

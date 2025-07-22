@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<InformationRegister uuid="cb7abadc-e3f0-4c89-a455-8682cd186e37">
+	<InformationRegister uuid="325bb5bd-4045-4562-a03a-608eadc8c780">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.БИТС_Настройки" category="Record">
-				<xr:TypeId>f216943a-a2f3-4d23-aeb0-a1ec39b239af</xr:TypeId>
-				<xr:ValueId>7ef0384c-a023-4735-9188-5ab2c340c310</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.БИТС_Стадии" category="Record">
+				<xr:TypeId>708279ee-ef3d-41f4-b463-bb6a224751a4</xr:TypeId>
+				<xr:ValueId>f7712aef-c5de-4b3e-bc41-317e99a38917</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.БИТС_Настройки" category="Manager">
-				<xr:TypeId>3df79899-7065-43f4-a68d-a2dfaf4715f6</xr:TypeId>
-				<xr:ValueId>93ec13a0-a82a-4871-b013-fcdec4a4cae5</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.БИТС_Стадии" category="Manager">
+				<xr:TypeId>adb47c8d-b0df-4b15-aed7-268eb8df902a</xr:TypeId>
+				<xr:ValueId>034ce49c-c4ff-46d1-86ad-2bad62c4b450</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.БИТС_Настройки" category="Selection">
-				<xr:TypeId>77bab685-59bf-4dd3-a69e-0c3504aaa926</xr:TypeId>
-				<xr:ValueId>80da349e-fb94-45e6-94b9-29f9fd19ae3b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.БИТС_Стадии" category="Selection">
+				<xr:TypeId>9fc77294-ff11-40bd-9c7f-8f3fd61a4323</xr:TypeId>
+				<xr:ValueId>0abe42b5-318d-4e2b-a690-2bbbd42f915e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.БИТС_Настройки" category="List">
-				<xr:TypeId>5036911b-b05e-4b94-ab8d-1ece9a9a0ced</xr:TypeId>
-				<xr:ValueId>5ed389a1-e3d4-4bb2-9760-91303c6aa513</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.БИТС_Стадии" category="List">
+				<xr:TypeId>0c5550d5-2274-4864-84ad-7bfb50faa81c</xr:TypeId>
+				<xr:ValueId>083762b5-4ddb-439d-b0f9-7470233ffef5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.БИТС_Настройки" category="RecordSet">
-				<xr:TypeId>dff75d9d-d0e5-4aa6-9dbf-9bd368172885</xr:TypeId>
-				<xr:ValueId>4b354e08-7e89-458c-abbb-dbcfc73c3069</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БИТС_Стадии" category="RecordSet">
+				<xr:TypeId>1caf0f93-c4b1-4b74-9c7c-40d1aab7275f</xr:TypeId>
+				<xr:ValueId>b01e4512-4d0b-404a-9d40-6a12a3e81f93</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.БИТС_Настройки" category="RecordKey">
-				<xr:TypeId>2bcdeee6-0a09-4869-b6ac-8ec3423efae1</xr:TypeId>
-				<xr:ValueId>a8eeebe7-7037-4cb2-bf4c-e90baf5b073b</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БИТС_Стадии" category="RecordKey">
+				<xr:TypeId>9a3be8d3-6f98-400b-bf14-d01cc76cb0a5</xr:TypeId>
+				<xr:ValueId>09d5c175-c465-4d4b-afc3-7bbb2ba2dbde</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.БИТС_Настройки" category="RecordManager">
-				<xr:TypeId>65997d80-9045-459a-b907-cf59a8165e03</xr:TypeId>
-				<xr:ValueId>7d921203-0322-4bc2-96d6-b98731811415</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БИТС_Стадии" category="RecordManager">
+				<xr:TypeId>1d1fb6b4-9271-422e-82fc-a454bccf7d34</xr:TypeId>
+				<xr:ValueId>1e06fe45-0bc7-42ab-b92a-9985239b9ee4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>БИТС_Настройки</Name>
+			<Name>БИТС_Стадии</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки битрикс</v8:content>
+					<v8:content>Стадии битрикс</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
-			<DefaultListForm>InformationRegister.БИТС_Настройки.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
@@ -64,20 +64,20 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="1b7614f4-d78e-4d27-9064-6613e90109eb">
+			<Attribute uuid="fed9ca84-e5fe-4532-aada-40c0ad380f13">
 				<Properties>
-					<Name>Значение</Name>
+					<Name>name</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Значение</v8:content>
+							<v8:content>Name</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
+							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -106,21 +106,21 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Resource>
-			<Dimension uuid="1feb2397-1a21-4b3f-a34d-102d5a8240b9">
+			</Attribute>
+			<Dimension uuid="38a75f13-cb50-454f-8b10-35653460cf52">
 				<Properties>
-					<Name>Наименование</Name>
+					<Name>id</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование</v8:content>
+							<v8:content>Id</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
+							<v8:Length>10</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -154,7 +154,6 @@
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
-			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
