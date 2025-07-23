@@ -12,116 +12,22 @@
 		<HorizontalAlign>Center</HorizontalAlign>
 		<Autofill>false</Autofill>
 		<ChildItems>
-			<ButtonGroup name="ФормаГруппаОсновная" id="971">
+			<ButtonGroup name="ФормаГруппаКнопокОсновная" id="971">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Форма группа основная</v8:content>
+						<v8:content>Форма группа кнопок основная</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Форма группа основная</v8:content>
+						<v8:content>Форма группа кнопок основная</v8:content>
 					</v8:item>
 				</ToolTip>
-				<Representation>Compact</Representation>
-				<ExtendedTooltip name="ФормаГруппаОсновнаяРасширеннаяПодсказка" id="972"/>
-				<ChildItems>
-					<Button name="ФормаОбновить" id="755">
-						<Type>CommandBarButton</Type>
-						<Representation>PictureAndText</Representation>
-						<CommandName>Form.Command.Обновить</CommandName>
-						<BackColor>web:WhiteSmoke</BackColor>
-						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-						<Picture>
-							<xr:Ref>StdPicture.Refresh</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Обновить</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-						<Shape>Usual</Shape>
-						<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="756"/>
-					</Button>
-					<Button name="ФормаВремяЗаСпринт" id="767">
-						<Type>CommandBarButton</Type>
-						<Representation>PictureAndText</Representation>
-						<CommandName>Form.Command.ВремяЗаСпринт</CommandName>
-						<BackColor>web:WhiteSmoke</BackColor>
-						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-						<Picture>
-							<xr:Ref>StdPicture.InputFieldCalendar</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Время</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-						<Shape>Usual</Shape>
-						<ShapeRepresentation>Always</ShapeRepresentation>
-						<ExtendedTooltip name="ФормаВремяЗаСпринтРасширеннаяПодсказка" id="768"/>
-					</Button>
-					<Button name="ФормаПолучитьРезультаты" id="763">
-						<Type>CommandBarButton</Type>
-						<Representation>PictureAndText</Representation>
-						<CommandName>Form.Command.ПолучитьРезультаты</CommandName>
-						<BackColor>web:WhiteSmoke</BackColor>
-						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-						<Picture>
-							<xr:Ref>StdPicture.ExternalDataSource</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Результаты</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-						<Shape>Usual</Shape>
-						<ExtendedTooltip name="ФормаПолучитьРезультатыРасширеннаяПодсказка" id="764"/>
-					</Button>
-					<Button name="ФормаДайджест" id="757">
-						<Type>CommandBarButton</Type>
-						<Representation>PictureAndText</Representation>
-						<CommandName>Form.Command.Дайджест</CommandName>
-						<BackColor>web:WhiteSmoke</BackColor>
-						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-						<Picture>
-							<xr:Ref>StdPicture.Today</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Дайджест</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-						<Shape>Usual</Shape>
-						<ExtendedTooltip name="ФормаДайджестРасширеннаяПодсказка" id="758"/>
-					</Button>
-					<Button name="ФормаНастройки" id="1135">
-						<Type>CommandBarButton</Type>
-						<Representation>PictureAndText</Representation>
-						<CommandName>Form.Command.Настройки</CommandName>
-						<BackColor>web:WhiteSmoke</BackColor>
-						<Font ref="style:TextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-						<Picture>
-							<xr:Ref>StdPicture.Setting</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
-						<ExtendedTooltip name="ФормаНастройкиРасширеннаяПодсказка" id="1136"/>
-					</Button>
-				</ChildItems>
+				<Width>20</Width>
+				<Height>2</Height>
+				<ExtendedTooltip name="ФормаГруппаКнопокОсновнаяРасширеннаяПодсказка" id="972"/>
 			</ButtonGroup>
 		</ChildItems>
 	</AutoCommandBar>
@@ -129,218 +35,141 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ВыборСтадии" id="929">
+		<UsualGroup name="ФормаГруппаКнопок" id="1137">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Стадии</v8:content>
+					<v8:content>Форма группа кнопок</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выбор стадии</v8:content>
+					<v8:content>Форма группа кнопок</v8:content>
 				</v8:item>
 			</ToolTip>
-			<ToolTipRepresentation>None</ToolTipRepresentation>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>false</VerticalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<GroupVerticalAlign>Center</GroupVerticalAlign>
-			<Group>AlwaysHorizontal</Group>
-			<HorizontalSpacing>None</HorizontalSpacing>
-			<VerticalSpacing>None</VerticalSpacing>
-			<HorizontalAlign>Center</HorizontalAlign>
-			<VerticalAlign>Center</VerticalAlign>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>web:Lavender</BackColor>
-			<ExtendedTooltip name="ВыборСтадииРасширеннаяПодсказка" id="930"/>
+			<ExtendedTooltip name="ФормаГруппаКнопокРасширеннаяПодсказка" id="1138"/>
 			<ChildItems>
-				<LabelDecoration name="ГраницаСлева" id="1140">
+				<Button name="ФормаВремяЗаСпринт" id="767">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
 					<HorizontalStretch>true</HorizontalStretch>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> </v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="ГраницаСлеваКонтекстноеМеню" id="1141"/>
-					<ExtendedTooltip name="ГраницаСлеваРасширеннаяПодсказка" id="1142"/>
-				</LabelDecoration>
-				<Button name="ВидимостьСтадииВОчереди" id="907">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<CommandName>Form.Command.ВремяЗаСпринт</CommandName>
+					<TextColor>#F5F7F8</TextColor>
+					<BackColor>#5BC0DE</BackColor>
+					<BorderColor>#5DB5CF</BorderColor>
+					<Font ref="style:TextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Picture>
+						<xr:Ref>StdPicture.InputFieldCalendar</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>В очереди</v8:content>
+							<v8:content>Время</v8:content>
 						</v8:item>
 					</Title>
+					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 					<Shape>Usual</Shape>
 					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииВОчередиРасширеннаяПодсказка" id="908"/>
+					<ExtendedTooltip name="ФормаВремяЗаСпринтРасширеннаяПодсказка" id="768"/>
 				</Button>
-				<Button name="ВидимостьСтадииВРаботе" id="921">
+				<Button name="ФормаПолучитьРезультаты" id="763">
 					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>В работе</v8:content>
-						</v8:item>
-					</Title>
-					<RepresentationInContextMenu>None</RepresentationInContextMenu>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииВРаботеРасширеннаяПодсказка" id="922"/>
-				</Button>
-				<Button name="ВидимостьСтадииТестВнутренний" id="919">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тест внутрений</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииТестВнутреннийРасширеннаяПодсказка" id="920"/>
-				</Button>
-				<Button name="ВидимостьСтадииФикс" id="917">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Фикс</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииФиксРасширеннаяПодсказка" id="918"/>
-				</Button>
-				<Button name="ВидимостьСтадииТестИнициатором" id="915">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тест инициатором</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииТестИнициаторомРасширеннаяПодсказка" id="916"/>
-				</Button>
-				<Button name="ВидимостьСтадииПроверено" id="913">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Проверено</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииПровереноРасширеннаяПодсказка" id="914"/>
-				</Button>
-				<Button name="ВидимостьСтадииЗагружено" id="911">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Загружено</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииЗагруженоРасширеннаяПодсказка" id="912"/>
-				</Button>
-				<Button name="ВидимостьСтадииСделаны" id="909">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сделаны</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииСделаныРасширеннаяПодсказка" id="910"/>
-				</Button>
-				<Button name="ВидимостьСтадииОптимизация" id="927">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Оптимизация</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииОптимизацияРасширеннаяПодсказка" id="928"/>
-				</Button>
-				<Button name="ВидимостьСтадииНаПаузе" id="925">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ВидимостьСтадии</CommandName>
-					<BackColor>web:LightCoral</BackColor>
-					<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>На паузе</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Usual</Shape>
-					<ShapeRepresentation>Always</ShapeRepresentation>
-					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-					<ExtendedTooltip name="ВидимостьСтадииНаПаузеРасширеннаяПодсказка" id="926"/>
-				</Button>
-				<LabelDecoration name="ГраницаСправа" id="1137">
+					<Representation>PictureAndText</Representation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
 					<HorizontalStretch>true</HorizontalStretch>
-					<Title formatted="false">
+					<CommandName>Form.Command.ПолучитьРезультаты</CommandName>
+					<TextColor>#F5F7F8</TextColor>
+					<BackColor>#5BC0DE</BackColor>
+					<BorderColor>#5DB5CF</BorderColor>
+					<Font ref="style:TextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Picture>
+						<xr:Ref>StdPicture.ExternalDataSource</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content> </v8:content>
+							<v8:content>Результаты</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ГраницаСправаКонтекстноеМеню" id="1138"/>
-					<ExtendedTooltip name="ГраницаСправаРасширеннаяПодсказка" id="1139"/>
-				</LabelDecoration>
+					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+					<Shape>Usual</Shape>
+					<ExtendedTooltip name="ФормаПолучитьРезультатыРасширеннаяПодсказка" id="764"/>
+				</Button>
+				<Button name="ФормаДайджест" id="757">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Дайджест</CommandName>
+					<TextColor>#F5F7F8</TextColor>
+					<BackColor>#5BC0DE</BackColor>
+					<BorderColor>#5DB5CF</BorderColor>
+					<Font ref="style:TextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Picture>
+						<xr:Ref>StdPicture.Today</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дайджест</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+					<Shape>Usual</Shape>
+					<ExtendedTooltip name="ФормаДайджестРасширеннаяПодсказка" id="758"/>
+				</Button>
+				<Button name="ФормаНастройки" id="1135">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Настройки</CommandName>
+					<TextColor>#F5F7F8</TextColor>
+					<BackColor>#5BC0DE</BackColor>
+					<BorderColor>#5DB5CF</BorderColor>
+					<Font ref="style:TextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Picture>
+						<xr:Ref>StdPicture.Setting</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ФормаНастройкиРасширеннаяПодсказка" id="1136"/>
+				</Button>
+				<Button name="ФормаОбновить" id="755">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<HorizontalStretch>true</HorizontalStretch>
+					<CommandName>Form.Command.Обновить</CommandName>
+					<TextColor>#F5F7F8</TextColor>
+					<BackColor>#5BC0DE</BackColor>
+					<BorderColor>#5DB5CF</BorderColor>
+					<Font ref="style:TextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Picture>
+						<xr:Ref>StdPicture.Refresh</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновить</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+					<Shape>Usual</Shape>
+					<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="756"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаСтадии" id="1">
@@ -2240,7 +2069,7 @@
 						</Table>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаСтадияПроверено" id="15">
+				<UsualGroup name="ГруппаСтадияПровереноГотовоКЗагрузке" id="15">
 					<Visible>false</Visible>
 					<Title>
 						<v8:item>
@@ -2263,7 +2092,7 @@
 					<Representation>StrongSeparation</Representation>
 					<ShowLeftMargin>false</ShowLeftMargin>
 					<CurrentRowUse>Use</CurrentRowUse>
-					<ExtendedTooltip name="ГруппаСтадияПровереноРасширеннаяПодсказка" id="16"/>
+					<ExtendedTooltip name="ГруппаСтадияПровереноГотовоКЗагрузкеРасширеннаяПодсказка" id="16"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаСтадияПровереноКоманды" id="961">
 							<Title>
@@ -2614,7 +2443,7 @@
 						</Table>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаСтадияЗагружено" id="9">
+				<UsualGroup name="ГруппаСтадияЗагруженоНаПрод" id="9">
 					<Visible>false</Visible>
 					<Title>
 						<v8:item>
@@ -2637,7 +2466,7 @@
 					<Representation>StrongSeparation</Representation>
 					<ShowLeftMargin>false</ShowLeftMargin>
 					<CurrentRowUse>Use</CurrentRowUse>
-					<ExtendedTooltip name="ГруппаСтадияЗагруженоРасширеннаяПодсказка" id="10"/>
+					<ExtendedTooltip name="ГруппаСтадияЗагруженоНаПродРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаСтадияЗагруженоКоманды" id="963">
 							<Title>
@@ -17553,21 +17382,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВремяЗаСпринт</Action>
-		</Command>
-		<Command name="ВидимостьСтадии" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Видимость стадии</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Видимость стадии</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВидимостьСтадии</Action>
 		</Command>
 		<Command name="СнятьВсе" id="7">
 			<Title>

@@ -2,23 +2,23 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="CommonForm.БИТС_Спринт" id="890bc85f-c5b6-496a-b9fe-54b97e302ffb" configVersion="f9d3c70bf8d66a4a016a8314af665d52070e9a05"/>
-		<Metadata name="CommonForm.БИТС_Спринт.Form" id="890bc85f-c5b6-496a-b9fe-54b97e302ffb.0" configVersion="c9442174e07ce3a0124531e9e4c9806fc102f5c8"/>
+		<Metadata name="CommonForm.БИТС_Спринт.Form" id="890bc85f-c5b6-496a-b9fe-54b97e302ffb.0" configVersion="d3294e2b7b114e7858919010145cff75952c39bd"/>
+		<Metadata name="CommonModule.БИТС_ДайджестСервер" id="4d093440-6d15-40d0-8a8a-a53ade6a2318" configVersion="6260badd5838cd8a765438bb2f2f72ce4ba7d5e1"/>
+		<Metadata name="CommonModule.БИТС_ДайджестСервер.Module" id="4d093440-6d15-40d0-8a8a-a53ade6a2318.0" configVersion="6927ad1a53945510961a6956a6939b07459442aa"/>
 		<Metadata name="CommonModule.БИТС_ЗадачиСервер" id="75471c32-ad69-4ef2-981d-c898af2acc66" configVersion="2482b62a2f59f0a1efad7b30aa1b872f9384a747"/>
 		<Metadata name="CommonModule.БИТС_ЗадачиСервер.Module" id="75471c32-ad69-4ef2-981d-c898af2acc66.0" configVersion="74ad46326a86226f5787236c53d5cfa2c6febebb"/>
-		<Metadata name="CommonModule.БИТС_НовостнойДайджестСеврев" id="4d093440-6d15-40d0-8a8a-a53ade6a2318" configVersion="34752d3cc493010dd5ebccf2441caec75e68f073"/>
-		<Metadata name="CommonModule.БИТС_НовостнойДайджестСеврев.Module" id="4d093440-6d15-40d0-8a8a-a53ade6a2318.0" configVersion="6927ad1a53945510961a6956a6939b07459442aa"/>
 		<Metadata name="CommonModule.БИТС_РезультатыСервер" id="c45e395f-4c19-439c-9bad-a97a9ae6b431" configVersion="c1a5b38659e027d159714499710cc68e434e2c05"/>
 		<Metadata name="CommonModule.БИТС_РезультатыСервер.Module" id="c45e395f-4c19-439c-9bad-a97a9ae6b431.0" configVersion="b16628ad66e25f21624f8466d8988c31c5dc6bd9"/>
 		<Metadata name="CommonModule.БИТС_СкрамСервер" id="1090c89c-9788-410e-ba07-9c552fa0b6f9" configVersion="b2c0bf7f393150a155482eb6b013f9bacf5375dd"/>
-		<Metadata name="CommonModule.БИТС_СкрамСервер.Module" id="1090c89c-9788-410e-ba07-9c552fa0b6f9.0" configVersion="7e6675d862d2571415128d6ef005538eeeacb7bd"/>
+		<Metadata name="CommonModule.БИТС_СкрамСервер.Module" id="1090c89c-9788-410e-ba07-9c552fa0b6f9.0" configVersion="571b0a2e0ae4de4bbbcbb195c62f569cdc287ab8"/>
 		<Metadata name="CommonModule.БИТС_СлужебныйСервер" id="8a5974a8-b433-4811-a5ad-0ede5dd32451" configVersion="1fe751d60a93f72c93ba83d182b7321db8bc721b"/>
-		<Metadata name="CommonModule.БИТС_СлужебныйСервер.Module" id="8a5974a8-b433-4811-a5ad-0ede5dd32451.0" configVersion="0de1955946d622b744fb5aa2949e2cf4a709be42"/>
+		<Metadata name="CommonModule.БИТС_СлужебныйСервер.Module" id="8a5974a8-b433-4811-a5ad-0ede5dd32451.0" configVersion="66a9bbc8895146d16e95a19adbaeb498c0101c22"/>
 		<Metadata name="CommonModule.БИТС_ФайлыСервер" id="ea16e939-e6d7-4f7a-bfa3-e50258c83ec0" configVersion="3e227f53843d57a38e3bf3e9d17e36ff249f10fb"/>
 		<Metadata name="CommonModule.БИТС_ФормаСервер" id="16f0cb71-ffe7-431e-95e1-e18b3ac3102c" configVersion="74c64d9c2f4c259b5dbcdb465e5e4313813348cd"/>
-		<Metadata name="CommonModule.БИТС_ФормаСервер.Module" id="16f0cb71-ffe7-431e-95e1-e18b3ac3102c.0" configVersion="28e4df2672522bd4f911029573dca9ec1df5c04d"/>
+		<Metadata name="CommonModule.БИТС_ФормаСервер.Module" id="16f0cb71-ffe7-431e-95e1-e18b3ac3102c.0" configVersion="3accbcedb640fe1350df6110055f7765b5ce0e4d"/>
 		<Metadata name="CommonTemplate.БИТС_НовостнойДайджест" id="961a8400-72a4-4ff2-a8eb-2eff134b55ee" configVersion="60b53a485fc34ff2aff1d09706cd11d46c5b4046"/>
 		<Metadata name="CommonTemplate.БИТС_НовостнойДайджест.Template" id="961a8400-72a4-4ff2-a8eb-2eff134b55ee.0" configVersion="2e7844e0e4b467fdd6fe0ddb4e413b53995d593d"/>
-		<Metadata name="Configuration.БитриксСкрам" id="bba2b00a-8099-4b30-aa3b-3ba51bab5458" configVersion="8c958bb30945c61fef32a9b5ec65f5e5af258bf8"/>
+		<Metadata name="Configuration.БитриксСкрам" id="bba2b00a-8099-4b30-aa3b-3ba51bab5458" configVersion="c32e98e5533ccb2c29196f0ffe11ab429fd09350"/>
 		<Metadata name="Configuration.БитриксСкрам.HomePageWorkArea" id="f132173c-9f61-46ab-9c2f-f983f16b196d.8" configVersion="b6273c9f327ee07e4906b90c026b4686abc1100d"/>
 		<Metadata name="InformationRegister.БИТС_Задачи" id="0c1d2fae-456e-4ec6-a7ba-87ce01dfb0a5" configVersion="74cb7bc0d2270f2c210ecec0fd3aa59e761e5631">
 			<Metadata name="InformationRegister.БИТС_Задачи.Attribute.description" id="06866c90-618c-472b-a3e4-b5256305023b"/>
@@ -135,7 +135,7 @@
 			<Metadata name="InformationRegister.БИТС_Файлы.Dimension.id" id="d7ac96fd-2b08-4165-a017-893952679970"/>
 			<Metadata name="InformationRegister.БИТС_Файлы.Dimension.commentId" id="ffc5a7d5-4c6a-487a-9d18-3bec49d278f1"/>
 		</Metadata>
-		<Metadata name="Language.Русский" id="7adaeb63-58d8-4799-ad84-ae53bf12a327" configVersion="9d296a7a0e0ef0fb8a8f9a8a25f851c28611e1de"/>
+		<Metadata name="Language.Русский" id="7adaeb63-58d8-4799-ad84-ae53bf12a327" configVersion="2096c906f2f2537691aca73124dcc9989ba26c3b"/>
 		<Metadata name="Role.БИТС_ОсновнаяРоль" id="59b4496a-2878-40ac-a70d-7d94df4fc4b1" configVersion="0e39e42c1dddf88f9bfa287e1437173e7b07e929"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

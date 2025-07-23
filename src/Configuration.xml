@@ -62,6 +62,7 @@
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
+			<CompatibilityMode>Version8_3_24</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -73,7 +74,7 @@
 			<CommonModule>БИТС_РезультатыСервер</CommonModule>
 			<CommonModule>БИТС_ФайлыСервер</CommonModule>
 			<CommonModule>БИТС_ФормаСервер</CommonModule>
-			<CommonModule>БИТС_НовостнойДайджестСеврев</CommonModule>
+			<CommonModule>БИТС_ДайджестСервер</CommonModule>
 			<CommonForm>БИТС_Спринт</CommonForm>
 			<InformationRegister>БИТС_Настройки</InformationRegister>
 			<InformationRegister>БИТС_Задачи</InformationRegister>
