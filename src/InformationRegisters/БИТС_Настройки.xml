@@ -155,6 +155,7 @@
 				</Properties>
 			</Dimension>
 			<Form>ФормаСписка</Form>
+			<Form>ФормаНастроек</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

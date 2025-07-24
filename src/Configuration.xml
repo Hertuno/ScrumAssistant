@@ -75,6 +75,7 @@
 			<CommonModule>БИТС_ФайлыСервер</CommonModule>
 			<CommonModule>БИТС_ФормаСервер</CommonModule>
 			<CommonModule>БИТС_ДайджестСервер</CommonModule>
+			<CommonModule>БИТС_СпринтыСервер</CommonModule>
 			<CommonForm>БИТС_Спринт</CommonForm>
 			<InformationRegister>БИТС_Настройки</InformationRegister>
 			<InformationRegister>БИТС_Задачи</InformationRegister>
