@@ -79,7 +79,9 @@
 			<CommonModule>БИТС_ФормаКлиент</CommonModule>
 			<CommonModule>БИТС_ФормаСервер</CommonModule>
 			<CommonModule>БИТС_ЭпикиСервер</CommonModule>
+			<Constant>БИТС_СтрокаПодключения</Constant>
 			<CommonForm>БИТС_Спринт</CommonForm>
+			<CommonForm>БИТС_Настройки</CommonForm>
 			<InformationRegister>БИТС_Настройки</InformationRegister>
 			<InformationRegister>БИТС_Задачи</InformationRegister>
 			<InformationRegister>БИТС_Результаты</InformationRegister>
