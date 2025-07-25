@@ -68,14 +68,17 @@
 			<Language>Русский</Language>
 			<Role>БИТС_ОсновнаяРоль</Role>
 			<CommonTemplate>БИТС_НовостнойДайджест</CommonTemplate>
-			<CommonModule>БИТС_СкрамСервер</CommonModule>
-			<CommonModule>БИТС_СлужебныйСервер</CommonModule>
+			<CommonModule>БИТС_ДайджестСервер</CommonModule>
 			<CommonModule>БИТС_ЗадачиСервер</CommonModule>
 			<CommonModule>БИТС_РезультатыСервер</CommonModule>
-			<CommonModule>БИТС_ФайлыСервер</CommonModule>
-			<CommonModule>БИТС_ФормаСервер</CommonModule>
-			<CommonModule>БИТС_ДайджестСервер</CommonModule>
+			<CommonModule>БИТС_СкрамСервер</CommonModule>
+			<CommonModule>БИТС_СлужебныйСервер</CommonModule>
 			<CommonModule>БИТС_СпринтыСервер</CommonModule>
+			<CommonModule>БИТС_ТрудозатратыСервер</CommonModule>
+			<CommonModule>БИТС_ФайлыСервер</CommonModule>
+			<CommonModule>БИТС_ФормаКлиент</CommonModule>
+			<CommonModule>БИТС_ФормаСервер</CommonModule>
+			<CommonModule>БИТС_ЭпикиСервер</CommonModule>
 			<CommonForm>БИТС_Спринт</CommonForm>
 			<InformationRegister>БИТС_Настройки</InformationRegister>
 			<InformationRegister>БИТС_Задачи</InformationRegister>
@@ -84,6 +87,7 @@
 			<InformationRegister>БИТС_Стадии</InformationRegister>
 			<InformationRegister>БИТС_Спринты</InformationRegister>
 			<InformationRegister>БИТС_Трудозатраты</InformationRegister>
+			<InformationRegister>БИТС_Эпики</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
